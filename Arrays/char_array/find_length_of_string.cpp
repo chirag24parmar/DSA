@@ -7,6 +7,7 @@ using namespace std;
 int getLength(char name[]){
     int count = 0;
 
+    //"\0" == null caharcter
     for (int i = 0; name[i] != '\0'; i++)
     {
         count++;
