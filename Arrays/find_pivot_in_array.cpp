@@ -9,7 +9,7 @@ int pivot(int arr[], int n){
     int s = 0;
     int e = n-1;
 
-    //for finding mid value ogf array
+    //for finding mid value of array
     int mid = s + (e-s)/2;
 
     while (s<e)
