@@ -2,8 +2,7 @@
 using namespace std;
 
 int main()
-{
-    
+{  
     int a = 4;
     int b = 3;
 
@@ -18,7 +17,6 @@ int main()
 
     ans = (a<b) ? a : b;
     cout<<ans<<endl;
-
 
     return 0;
 }
