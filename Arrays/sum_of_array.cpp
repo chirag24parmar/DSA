@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-// creating function for adding the arrary element
+// creating function for adding the array element
 int sumOfArray(int arr[], int n){
     int sum = 0;
 
@@ -11,9 +11,7 @@ int sumOfArray(int arr[], int n){
     {
         sum = arr[i] + sum;
     }
-
-    return sum;
-    
+    return sum; 
 }
 
 int main(){
@@ -33,5 +31,5 @@ int main(){
     
     // printing the Sum of array
     cout<<sumOfArray(arr,n)<<endl;
-    
+    return 0;
 }
