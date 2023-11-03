@@ -3,13 +3,13 @@
 using namespace std;
 
 //recursion function
-int sum(int k){
+int sum(int value){
     //Base case
-    if (k == 0)
+    if (value == 0)
         return 0;
 
     // Recursive relation    
-    return k + sum(k - 1);    
+    return value + sum(value - 1);    
 }
 int main()
 {
