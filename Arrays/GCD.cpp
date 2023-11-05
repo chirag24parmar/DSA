@@ -20,7 +20,7 @@ int gcd(int a,int b){
     return a;
     
 }
-int main(int argc, char const *argv[])
+int main()
 {
     int a,b;
     cin>>a>>b;
