@@ -15,7 +15,5 @@ int main()
 
     cout<<"size is - "<<sizeof(num)<<" byte"<<endl; // check the size of pointer or variable
 
-
-
     return 0;
 }

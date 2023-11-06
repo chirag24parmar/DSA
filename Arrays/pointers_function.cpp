@@ -12,7 +12,6 @@ void update (int *ptr){
     cout<<"address - "<<ptr<<endl;//print the updated address
     *ptr = *ptr + 1; // updating the value
     cout<<"print - "<<*ptr<<endl; //print the updated value
-
 }
 
 int main()

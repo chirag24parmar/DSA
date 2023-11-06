@@ -39,11 +39,8 @@ double morePresicion(int n,int presicion, int tempSol){
         {
             ans = j;
         }
-        
-
     }
-    return ans;
-    
+    return ans; 
 }    
 
 int main()

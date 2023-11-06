@@ -21,8 +21,7 @@ char getMaxOccCharater(string s){
         }else{
             number = ch - 'A';
         }
-        arr[number]++;
-        
+        arr[number]++; 
     }
 
     // for finding maximum occurency in character
@@ -41,7 +40,6 @@ char getMaxOccCharater(string s){
     //printing maximum character
     char finalAns = 'a' + ans;
     return finalAns;
-    
     
 }
 

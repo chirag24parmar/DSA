@@ -26,7 +26,6 @@ int main()
 
     cout<<&p<<endl; // *p will print its own address 
     cout<<&temp<<endl; // temp will print its own address
-
-
+    
     return 0;
 }

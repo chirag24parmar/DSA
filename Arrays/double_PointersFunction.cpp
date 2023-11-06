@@ -8,7 +8,6 @@ void update(int **p2){
     // *p2 = *p2 + 1; // address of p will change
 
     **p2 = **p2 + 1; // value will change 
-
 }
 
 int main()

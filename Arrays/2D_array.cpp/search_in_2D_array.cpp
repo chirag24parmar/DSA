@@ -42,10 +42,7 @@ int main()
         cout<<"Found element ";
     }else{
         cout<<"Not Found ";
-
     }
     
-
-
     return 0;
 }
