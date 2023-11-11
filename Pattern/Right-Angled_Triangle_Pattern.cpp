@@ -24,7 +24,6 @@ int main()
 }
 
 /*
-
 Input -: 4
 Output -:
 * 
