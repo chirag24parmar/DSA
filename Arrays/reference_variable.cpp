@@ -25,7 +25,7 @@ int main()
     i++;
     cout<<"Printing i - "<<i<<endl; // it will print 6 because i++
     j++;
-    cout<<"Printing j - "<<j<<endl; //it wikll print 7 because j++ and j is refernce varianble
+    cout<<"Printing j - "<<j<<endl; //it will print 7 because j++ and j is refernce varianble
     cout<<"Simple understanding is Over"<<endl;
     cout<<endl;
 // ---------------------------------------------------------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ int main()
     // normal function calling 
     cout<<"Before - "<<n<<endl; // print 2
     update1(n);
-    cout<<"After - "<<n<<endl; // without update it will print 2
+    cout<<"After - "<<n<<endl; // without updation it will print 2
 
     cout<<"Normal Function"<<endl;
     cout<<endl;

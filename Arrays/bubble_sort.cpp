@@ -25,11 +25,11 @@ void bubbleSort(int arr[], int n)
 
 int main()
 {
-    int arr[5] = {5,2,3,4,1};
+    int arr[] = {5,2,3,4,1};
     //example = sizeof(arr) / sizeof(arr[0]) will be 20 bytes / 4 bytes = 5. It means there are 5 element is present in array.
     int n = sizeof(arr) / sizeof(arr[0]);
     
-    bubbleSort(arr,5);
+    bubbleSort(arr,n);
 
     cout << "Sorted array: ";
     // this loop is for printing the final sorted array.

@@ -5,7 +5,7 @@ using namespace std;
 class Hero{
 
     private:
-    int health;
+    int health = 20;
 
     public:
     int gethealth(){

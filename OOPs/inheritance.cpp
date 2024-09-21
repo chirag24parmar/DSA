@@ -19,7 +19,7 @@ class Human {
 //inherit class of Human
 class Male: public Human{
     public:
-    string colour;
+    string colour = "GREEN";
 
     void sleep(){
         cout<< "Male Sleeping" <<endl;

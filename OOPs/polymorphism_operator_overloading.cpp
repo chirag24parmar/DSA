@@ -7,7 +7,7 @@ class A{
     public:
     int a;
 
-    //here you can see that, we have change the method od addition into subtraction
+    //here you can see that, we have change the method of addition into subtraction
     void operator+ (A &obj){
         int value1 = this -> a;
         int value2 = obj.a;

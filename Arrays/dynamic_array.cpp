@@ -28,6 +28,7 @@ int main()
 
     int ans = getSum(arr,n);
     cout<<"Answer - "<<ans<<endl;
+    delete []arr;
 
     return 0;
 }

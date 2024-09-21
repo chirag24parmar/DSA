@@ -4,7 +4,7 @@
 using namespace std;
 
 //function for sum
-void printSum(int arr[][3], int i, int j){
+void printSum(int arr[3][3]){
 
     cout<<"Printing the sum of array -: "<<endl;
 
@@ -45,7 +45,7 @@ int main()
     }
 
     // printing the sum of row wise array
-    printSum(arr, 2, 3);
+    printSum(arr);
 
     return 0;
 }

@@ -16,7 +16,7 @@ int inversionArray(int arr[],int n){
     
 }
 
-int main(int argc, char const *argv[])
+int main()
 {
     int arr[] = {1,20,6,4,5};
     int n = 5;

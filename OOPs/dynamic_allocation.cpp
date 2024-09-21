@@ -4,7 +4,7 @@ using namespace std;
 class Hero{
 
     private:
-    int level;
+    int level = 12;
 
     public:
     int gethealth(){

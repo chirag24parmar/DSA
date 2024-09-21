@@ -17,6 +17,7 @@ void merge(int arr1[], int n, int arr2[], int m, int arr3[]){
             i++;
         }else{
             arr3[k] = arr2[j];
+
             k++;
             j++;
         }    
@@ -57,7 +58,7 @@ int main(){
 
     merge(arr1, 4, arr2, 6, arr3);
 
-    print(arr3, 8);
+    print(arr3, 10);
 
     return 0;
 }
